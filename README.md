@@ -23,3 +23,8 @@ make
 ```bash
 python3 scripts/visualizer.py
 ```
+
+## Results
+
+![Alt text](results/base_plot.png?raw=true "Visualizing on MathplotLib")
+![Alt text](results/base_pcl_viewer.png?raw=true "Visualizing on pcl_viewer")

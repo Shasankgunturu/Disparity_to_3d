@@ -9,7 +9,7 @@ if __name__ == "__main__":
     point_cloud_base_frame = np.asarray(point_cloud.points)
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-    ax.scatter(point_cloud_base_frame[:,0], point_cloud_base_frame[:,1], point_cloud_base_frame[:,2], c=point_cloud_base_frame[:,0], cmap='viridis')
+    ax.scatter(point_cloud_base_frame[:,0], point_cloud_base_frame[:,1], point_cloud_base_frame[:,2], c=point_cloud_base_frame[:,0], cmap='viridis', s=1)
     ax.set_xlabel('X')
     ax.set_ylabel('Y')
     ax.set_zlabel('Z')
